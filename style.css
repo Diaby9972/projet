@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    background-color: rgb(239, 236, 236);
+    max-width: 900px;
+    max-height: 3000px;
+    margin: auto;
+}
+.cont-header{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #94a6b2;
+    max-width: 900px;
+    max-height: 900px;
+}
+.container .cont-header img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    margin-left: 25px;
+    border: 3px solid white;
+}
+.sous-header{
+    position: relative;
+    padding-left: 35px;
+    max-width: 100%;
+    height: autos;
+}
+.cont-bas{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000px;
+}
+.cont-bas-left{
+    position: relative;
+    background-color: rgb(86, 83, 104);
+    width: 217px;
+    max-width: 600px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 90px;
+    color: rgb(239, 235, 235);
+}
+.cont-bas-right{
+    position: relative;
+    background-color: white;
+    padding-left: 35px;
+    margin-left: -20px;
+    margin-right: 0px;
+}
+.title{
+    text-transform: uppercase;
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+}
+.ttrechercher{
+    font-weight: bold;
+}
+.intro-header{
+
+}
+.adresse{
+    margin: 0px;
+}
+.adresse ul li{
+    list-style-type: none;
+}
+.title2{
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.comp-pp{
+    padding-left: 40px;
+    padding-right:40px ;
+}
+.comp-liste{
+    padding-left: 15px;
+}
+.comp-liste ul li{
+    padding: 5px
+}
+.title3{
+    text-transform: uppercase;
+    padding: 35px;
+}
+.section{
+    padding-left: 35px;
+}
+.section2{
+    padding-left: 35px;
+}
+.min-title{
+    font-weight: bold;
+}
+.date-title3{
+    font-weight: bold;
+}
+body{
+    background-color: rgb(86, 236, 186);
+}
+@media screen and (max-width:912px) 
+{
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+    }   
+}
+@media screen and (max-width: 1024px) and(max-width:1000px)
+ {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 0px;
+    }
+}
